@@ -1,0 +1,5 @@
+ignore /^_site/ # NOTE: this can interfere with Guard::LiveReload
+
+guard "jekyll-plus", :extensions => ['txt'] do
+  watch /.*/
+end
